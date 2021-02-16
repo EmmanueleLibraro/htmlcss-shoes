@@ -40,3 +40,9 @@ body{
     text-align: center;
     color: yellow;
 }
+
+.intro .verde{
+    position: relative;
+    background-color: green;
+    height: 100vh;
+}
