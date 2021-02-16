@@ -20,15 +20,22 @@ body{
     z-index: 5;
 }
 
-.fisso .ul .li a{
+/* Lista */
+li{
     display: inline-block;
     margin: 15px;
     list-style: none;
-    text-decoration: none;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background: white;
+    border-radius: 50%;
+    line-height: 30px;
     text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 /* Intro */
