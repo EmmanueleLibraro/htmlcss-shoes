@@ -41,8 +41,26 @@ body{
     color: yellow;
 }
 
+/* Background verde */
 .intro .verde{
-    position: relative;
     background-color: green;
     height: 100vh;
+}
+
+/* Background giallo */
+.intro .giallo{
+    background-color: yellow;
+    height: 100vh;
+}
+
+/* Testo verde */
+.container-text .testo{
+    width: 500px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    text-align: center;
+    color: green;
 }
